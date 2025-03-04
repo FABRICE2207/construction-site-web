@@ -50,13 +50,13 @@ const Working = () => {
                     rounded-full cursor-pointer' />
                     </div>
                     <h1 className='text-2xl font-bold uppercase'>{item.title}</h1>
-                    <p className='text-[20px] text-center text-gray'>{item.about}</p>
+                    <p className='text-[20px] text-center text-gray-600'>{item.about}</p>
                   </div>
                 ))
               }
             </motion.div>
           </motion.div>
-        </div>
+    </div>
   )
 }
 
