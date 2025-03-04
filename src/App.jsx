@@ -7,12 +7,14 @@ import Services from './components/Services'
 import Testimonial from './components/Testimonial'
 import Footer from './components/Footer'
 import Working from './components/Working'
+import About from './components/About'
 
 const App = () => {
   return (
     <>
       <Header />
       <Hero />
+      <About />
     </>
   )
 }
