@@ -34,6 +34,7 @@ const App = () => {
       <Working />
       <Testimonial />
       <Contact />
+      <Footer />
     </>
   )
 }

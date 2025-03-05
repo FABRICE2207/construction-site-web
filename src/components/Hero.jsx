@@ -7,7 +7,7 @@ import { slideUpVariants, zoomInVariants } from './animation'
 const Hero = () => {
   return (
     // Image d'Arrière plan
-    <div id="Hero" className='bg-black w-full lg:h-[600px] h-fit m-auto pt-[60px] lg:pt-[0px] lg:px-[150px]
+    <div id="hero" className='bg-black w-full lg:h-[600px] h-fit m-auto pt-[60px] lg:pt-[0px] lg:px-[150px]
       px-[20px] flex justify-between items-center lg:flex-row flex-col lg:gap-5 gap-[50px] bg-cover bg-center
     '
     style={{ backgroundImage: `url(${backgroungImage})`}}
