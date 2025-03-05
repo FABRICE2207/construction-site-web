@@ -15,4 +15,5 @@ If you are developing a production application, we recommend using TypeScript an
 - npm i recat-icons
 - npm i framer-motion
 - npm i react-scroll
+- npm install aos --save
 

@@ -8,8 +8,22 @@ import Testimonial from './components/Testimonial'
 import Footer from './components/Footer'
 import Working from './components/Working'
 import About from './components/About'
+import Aos from 'aos'
+import "aos/dist/aos.css";
 
 const App = () => {
+
+  // useEffect(() => {
+  //   Aos.init(
+  //     {
+  //       offset: 100,
+  //       duration: 700,
+  //       easing: "ease-in",
+  //       delay: 100,
+  //     }
+  // )
+  // })
+
   return (
     <>
       <Header />
